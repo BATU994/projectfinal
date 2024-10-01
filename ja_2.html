@@ -28,70 +28,79 @@
                     </ul>
                 </nav>
                 </div>
-                            <div class="navHam"></div>
-            <div class="table" id="table" >
-              <div class="sidenav" id="mySidenav">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
-              <a href="index.html">SNEAKERS</a>
-              <a href="basketballs.html">BASKETBALLS</a>
-              <a href="hall_of_fame.html">HALL OF FAME</a>
-              <a href="log_in.html">LOG IN</a>
-              </div>
+          <div class="logham">
+            <div class="navHam">
+                <div class="table" id="table" >
+                  <div class="sidenav" id="mySidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+                  <a href="index.html">SNEAKERS</a>
+                  <a href="basketballs.html">BASKETBALLS</a>
+                  <a href="hall_of_fame.html">HALL OF FAME</a>
+                  <a href="log_in.html">LOG IN</a>
+                  </div>
 
-              <div id="main">
-                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-              </div>
-              <script>
-                function openNav() {
-                  document.getElementById("mySidenav").style.width = "250px";
-                  document.getElementById("main").style.marginLeft = "0px";
-                }
+                  <div id="main">
+                    <span style="font-size:30px;cursor:pointer;margin-right: 10px;" onclick="openNav()">&#9776</span>
+                  </div>
+                  <script>
+                    function openNav() {
+                      document.getElementById("mySidenav").style.width = "250px";
+                      document.getElementById("main").style.marginLeft = "0px";
+                    }
 
-                function closeNav() {
-                  document.getElementById("mySidenav").style.width = "0";
-                  document.getElementById("main").style.marginLeft= "0";
-                }
-              </script>
-              <style>
-                .sidenav {
-                  height: 100%;
-                  width: 0;
-                  position: fixed;
-                  z-index: 1;
-                  top: 0;
-                  left: 0;
-                  background-color: #111;
-                  overflow-x: hidden;
-                  transition: 0.1s;
-                  padding-top: 60px;
-                }
+                    function closeNav() {
+                      document.getElementById("mySidenav").style.width = "0";
+                      document.getElementById("main").style.marginLeft= "0";
+                    }
+                  </script>
+                  <style>
+                    .sidenav {
+                      height: 100%;
+                      width: 0;
+                      position: fixed;
+                      z-index: 1;
+                      top: 0;
+                      left: 0;
+                      background-color: #111;
+                      overflow-x: hidden;
+                      transition: 0.1s;
+                      font-family: Oswald;
+                      padding-top: 60px;
+                    }
 
-                .sidenav a {
-                  padding: 8px 8px 8px 32px;
-                  text-decoration: none;
-                  font-size: 25px;
-                  color: #818181;
-                  display: block;
-                  transition: 0.3s;
-                }
+                    .sidenav a {
+                      padding: 8px 8px 8px 32px;
+                      text-decoration: none;
+                      font-size: 25px;
+                      color: #818181;
+                      display: block;
+                      transition: 0.3s;
+                    }
 
-                .sidenav a:hover {
-                  color: #f1f1f1;
-                }
+                    .sidenav a:hover {
+                      color: #f1f1f1;
+                    }
 
-                .sidenav .closebtn {
-                  position: absolute;
-                  top: 0;
-                  right: 25px;
-                  font-size: 36px;
-                }
+                    .sidenav .closebtn {
+                      position: absolute;
+                      top: 0;
+                      right: 25px;
+                      font-size: 36px;
+                    }
 
-                .logham {
-                  display: flex;
-                }
-              </style>
+                    .logham {
+                      display: flex;
+                    }
+                    #main span {
+                      font-size: 30px;
+                      cursor: pointer;
+                      color: black; /* Ensure this contrasts with your background */
+                    }
+                  </style>
+                </div>
             </div>
-        </div>
+
+      </div>
 
       </div>
                 </div>
@@ -117,7 +126,7 @@
                         </div>
                         <hr>
                         <div class="desc">
-                            <p style="font-size:30px;">
+                            <p style="">
                             The Jordan JA 2 basketball shoes provide a lightweight, high-performance design, perfect for players who rely on speed and agility. Equipped with responsive cushioning, they offer excellent impact protection during jumps and quick movements. The durable rubber outsole ensures superior grip on the court, while the breathable upper materials deliver lasting comfort. With a sleek, modern look, the JA 2 combines style and function, making it ideal for both competitive games and casual wear.
                             </p>
                         </div> 

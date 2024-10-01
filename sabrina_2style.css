@@ -166,6 +166,9 @@ button {
   border-radius: 19px;
   height: fit-content;
 }
+.desc {
+  font-size: 30px;
+}
 .sub {
   margin: 20px;
 
@@ -345,5 +348,15 @@ button {
 
   .subboot {
     width: 100%;
+  }
+  nav {
+    display: none;
+    width: 0%;
+  }
+  .topper {
+    width: 350px;
+  }
+  .desc {
+    font-size: 10px;
   }
 }

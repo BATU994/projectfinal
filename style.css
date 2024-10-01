@@ -46,6 +46,17 @@ li a {
   }
 }
 
+.title {
+  position: relative;
+  top: 90px;
+  left: 30px;
+  font-size: 60px;
+}
+header > button {
+  margin-top: 110px;
+  margin-left: 30px;
+}
+
 .topper {
   display: flex;
   margin-top: auto;
@@ -112,9 +123,8 @@ header > .hys > h1 {
 }
 .title {
   position: relative;
-  top: 190px;
+  top: 100px;
   left: 30px;
-  font-size: 40px;
 }
 header > a > button {
   margin-top: 200px;
@@ -331,7 +341,7 @@ a > .pair {
     font-size: 10px;
   }
   .title {
-    font-size: px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 665px) {
@@ -343,6 +353,15 @@ a > .pair {
   }
   header {
     height: 300px;
+    button {
+      font-size: 5px;
+      overflow-x: visible;
+      overflow-y: visible;
+    }
+    a {
+      overflow-x: visible;
+      overflow-y: visible;
+    }
   }
   .title {
     font-size: 30px;
@@ -353,7 +372,7 @@ a > .pair {
   header {
     height: 275px;
     button {
-      font-size: 10px;
+      font-size: 5px;
       overflow-x: visible;
       overflow-y: visible;
     }
@@ -375,12 +394,20 @@ a > .pair {
 
 @media screen and (max-width: 470px) {
   header {
-    height: 300px;
-    button {
-      font-size: 5px;
-      overflow-x: visible;
-      overflow-y: visible;
+    height: 200px;
+    width: 350px;
+    a {
+      margin-top: -30px;
+      width: 10%;
+      button {
+        font-size: 10px;
+      }
     }
+  }
+
+  .hys > button {
+    overflow-x: visible;
+    overflow-y: visible;
   }
   .bask .first {
     display: none;
@@ -390,5 +417,21 @@ a > .pair {
     width: 0%;
   }
   .topper {
+    width: 350px;
+  }
+  .stock {
+  }
+  .sneakers {
+    width: 350px;
+  }
+  .title {
+    font-size: 15px;
+  }
+  .hys {
+    height: 40%;
+  }
+  .hys > a {
+    width: 100%;
+    height: 100%;
   }
 }

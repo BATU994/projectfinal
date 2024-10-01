@@ -13,6 +13,7 @@ body {
   max-width: 1920px;
   margin-left: auto;
   margin-right: auto;
+  font-family: Oswald;
 }
 .signlog {
   background-color: rgb(197, 23, 58);
@@ -83,7 +84,6 @@ li a {
   display: flex;
   margin-top: auto;
   margin-bottom: auto;
-  height: px;
   background-color: white;
   border: solid 1px;
   align-items: center;
@@ -109,7 +109,7 @@ nav {
   position: fixed;
   left: 350px;
   top: 15px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
   z-index: 10;
 }
@@ -155,6 +155,10 @@ button {
   font-family: "Rubik";
   font-size: 20px;
   cursor: pointer;
+}
+
+.desc {
+  font-size: 30px;
 }
 .buttons {
   display: flex;
@@ -345,5 +349,15 @@ button {
 
   .subboot {
     width: 100%;
+  }
+  nav {
+    display: none;
+    width: 0%;
+  }
+  .topper {
+    width: 350px;
+  }
+  .desc {
+    font-size: 10px;
   }
 }
