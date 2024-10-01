@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signlog {
+  background-color: rgb(197, 23, 58);
+  border-radius: 10px;
+  width: 90px;
+  height: 25px;
+  text-align: center;
+  a {
+    color: white;
+  }
+}
+
+.subboot > img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.subboot {
+  position: sticky;
+  top: 20px;
+  width: 100%;
+}
+
+.boot {
+  height: 1000px;
+}
+
+.topper {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: px;
+  background-color: white;
+  border: solid 1px;
+  align-items: center;
+  align-content: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#logo {
+  margin-left: 3px;
+}
+.logham {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav {
+  width: 800px;
+  position: fixed;
+  left: 350px;
+  top: 15px;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 10;
+}
+.shoes {
+  display: grid;
+  grid-row: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+  font-family: Helvetica, sans-serif;
+  width: 80%;
+  z-index: 0;
+}
+
+hr {
+  border: solid 2px rgb(137, 5, 32);
+  margin-top: 30px;
+}
+nav li {
+  display: flex;
+}
+li a {
+  font-family: Oswald;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contacts {
+  background-color: #08013f;
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  height: 25vh;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.links > a {
+  color: #d9dafc;
+  font-family: Oswald;
+  letter-spacing: 1px;
+}
+.socials {
+  img {
+    width: 3%;
+  }
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.everything {
+  min-width: 460px;
+}
+.shoes > img {
+  border-radius: 10px;
+  width: 100%;
+}
+li a:hover,
+li a.active {
+  border-bottom: 3px solid black;
+  transition: 0.1s ease;
+}
+
+button {
+  padding: 20px 50px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: solid 0;
+  margin-top: 40px;
+  font-family: "Rubik";
+  font-size: 20px;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.info {
+  background-color: rgb(195, 10, 10);
+  border-radius: 19px;
+  height: fit-content;
+}
+.sub {
+  margin: 20px;
+
+  p {
+    margin-top: 30px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
+.image {
+  width: 20%;
+}
+@media screen and (max-width: 1345px) {
+  nav {
+    position: inherit;
+  }
+  .title {
+    position: relative;
+    top: 90px;
+    left: 30px;
+    font-size: 60px;
+  }
+  .main > button {
+    margin-top: 110px;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .fifth {
+    display: none;
+  }
+  nav {
+    width: 600px;
+    position: inherit;
+  }
+  .main {
+    background-size: cover;
+    height: 500px;
+  }
+  .title {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .fourth {
+    display: none;
+  }
+  nav {
+    width: 400px;
+  }
+  .main {
+    background-size: cover;
+    height: 400px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .boot {
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 655px) {
+  .third {
+    display: none;
+  }
+  nav {
+    width: 200px;
+  }
+  .main {
+    height: 300px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .boot {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .main {
+    height: 275px;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .main {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .shoes {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 90%;
+  }
+
+  .sub h1 {
+    font-size: 45px;
+  }
+
+  .sub p {
+    font-size: 25px;
+  }
+
+  button {
+    padding: 15px 40px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .shoes {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .info {
+    padding: 15px;
+  }
+
+  .sub h1 {
+    font-size: 40px;
+  }
+
+  .sub p {
+    font-size: 22px;
+  }
+
+  button {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .shoes {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .sub h1 {
+    font-size: 35px;
+  }
+
+  .sub p {
+    font-size: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .shoes {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .sub h1 {
+    font-size: 30px;
+  }
+
+  .sub p {
+    font-size: 18px;
+  }
+
+  button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  .subboot {
+    width: 100%;
+  }
+}

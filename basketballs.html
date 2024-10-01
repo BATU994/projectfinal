@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="basketballsstyle.css" />
+  </head>
+  <body>
+    <div class="topper">
+      <div class="loo">
+        <a href="index.html"><img src="logo.png" alt="logo" id="logo" width="100px" /></a>
+      </div>
+      <div class="topics">
+        <nav>
+          <ul>
+            <li class="first">
+              <a href="index.html" class="link">SNEAKERS</a>
+            </li>
+            <li class="third">
+              <a href="basketballs.html" class="link">BASKETBALLS</a>
+            </li>
+            <li class="fourth">
+              <a href="hall_of_fame.html" class="link">HALL OF FAME</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="logham">
+        <div class="navHam">
+            <div class="table" id="table" >
+              <div class="sidenav" id="mySidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+              <a href="index.html">SNEAKERS</a>
+              <a href="basketballs.html">BASKETBALLS</a>
+              <a href="hall_of_fame.html">HALL OF FAME</a>
+              <a href="log_in.html">LOG IN</a>
+              </div>
+
+              <div id="main">
+                <span style="font-size:30px;cursor:pointer;margin-right: 10px;" onclick="openNav()">&#9776</span>
+              </div>
+              <script>
+                function openNav() {
+                  document.getElementById("mySidenav").style.width = "250px";
+                  document.getElementById("main").style.marginLeft = "0px";
+                }
+
+                function closeNav() {
+                  document.getElementById("mySidenav").style.width = "0";
+                  document.getElementById("main").style.marginLeft= "0";
+                }
+              </script>
+              <style>
+                .sidenav {
+                  height: 100%;
+                  width: 0;
+                  position: fixed;
+                  z-index: 1;
+                  top: 0;
+                  left: 0;
+                  background-color: #111;
+                  overflow-x: hidden;
+                  transition: 0.1s;
+                  font-family: Oswald;
+                  padding-top: 60px;
+                }
+
+                .sidenav a {
+                  padding: 8px 8px 8px 32px;
+                  text-decoration: none;
+                  font-size: 25px;
+                  color: #818181;
+                  display: block;
+                  transition: 0.3s;
+                }
+
+                .sidenav a:hover {
+                  color: #f1f1f1;
+                }
+
+                .sidenav .closebtn {
+                  position: absolute;
+                  top: 0;
+                  right: 25px;
+                  font-size: 36px;
+                }
+
+                .logham {
+                  display: flex;
+                }
+              </style>
+            </div>
+        </div>
+
+      </div>
+    </div>
+    <h1 class="title">BASKETBALLS</h1>
+    <div class="basketballs">
+      <div class="ball">
+        <img src="Evoultion.png" alt="" />
+        <h2>Evolution</h2>
+        <p>80$</p>
+      </div>
+      <div class="ball">
+        <img src="NCAA.png" alt="" />
+        <h2>EVO NCAA</h2>
+        <p>60$</p>
+      </div>
+      <div class="ball">
+        <img src="tarmak.png" alt="" />
+        <h2>Tarmak R 500</h2>
+        <p>25$</p>
+      </div>
+    </div>
+    <div class="additional">
+      <h1>Other Assortment coming soon...</h1>
+    </div>
+    <div class="contacts">
+      <div class="socials">
+        <a href="https://www.facebook.com/?locale=ru_RU" target="_blank"><img src="facebook-circle.svg" alt=""></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><img src="bxl-whatsapp.svg" alt=""></a>
+        <a href="https://web.telegram.org/" target="_blank"><img src="bxl-telegram.svg" alt=""></a>
+        <a href="https://www.instagram.com/project.fone/" target="_blank"><img src="bxl-instagram.svg" alt=""></a>
+      </div>
+      <div class="links">
+        <a href="index.html">SNEAKERS</a>
+        <a href="basketballs.html">BASKETBALLS</a>
+        <a href="hall_of_fame.html">HALL OF FAME</a>
+      </div>
+    </div>
+  </body>
+</html>

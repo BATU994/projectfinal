@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signlog {
+  background-color: rgb(197, 23, 58);
+  border-radius: 10px;
+  width: 90px;
+  height: 25px;
+  text-align: center;
+  a {
+    color: white;
+  }
+}
+
+.topper {
+  display: flex;
+  background-color: white;
+  border: solid 1px;
+  align-items: center;
+  align-content: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 101%;
+}
+
+#logo {
+  margin-left: 3px;
+}
+.logham {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav {
+  width: 800px;
+  position: fixed;
+  left: 30%;
+  top: 15px;
+  background-color: white;
+  border-radius: 5px;
+}
+nav li {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+
+.hall > h1 {
+  font-family: "Jaro";
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.topimg > img {
+}
+
+.container {
+  background-color: white;
+  width: 90%;
+  h1 {
+    font-family: "Oswald";
+    text-align: center;
+    font-size: 80px;
+  }
+  h2 {
+    font-family: "Oswald";
+    text-align: center;
+    font-size: 40px;
+  }
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+li a {
+  font-family: Oswald;
+}
+li a:hover,
+li a.active {
+  border-bottom: 3px solid black;
+  transition: 0.1s ease;
+}
+.contacts {
+  background-color: #08013f;
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  height: 25vh;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.links > a {
+  color: #d9dafc;
+  font-family: Oswald;
+  letter-spacing: 1px;
+}
+.socials {
+  img {
+    width: 3%;
+  }
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.investors {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 20px;
+  justify-content: space-around;
+}
+.buyers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.person {
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  h2 {
+    margin-top: 5px;
+    font-size: 50px;
+    color: white;
+  }
+  width: 700px;
+  border: solid 0px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: black;
+  background-color: rgb(144, 144, 144);
+}
+.jordan {
+  img {
+    height: 72%;
+  }
+}
+.smone {
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  h2 {
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
+  }
+  border: solid 0px;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  width: 333px;
+  margin-bottom: 20px;
+  background-color: #1400ae;
+}
+
+.smone {
+  img {
+    height: ;
+  }
+}
+@media screen and (max-width: 1600px) {
+  nav {
+    position: inherit;
+  }
+}
+@media screen and (max-width: 1345px) {
+  nav {
+    position: inherit;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .fifth {
+    display: none;
+  }
+  nav {
+    width: 600px;
+    position: inherit;
+  }
+}
+@media screen and (max-width: 860px) {
+  .fourth {
+    display: none;
+  }
+  nav {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 665px) {
+  .third {
+    display: none;
+  }
+  nav {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 470px) {
+}

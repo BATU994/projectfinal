@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.sneakers > h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Jaro;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.sneakers {
+  font-family: "Rubik";
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+}
+li a:hover,
+li a.active {
+  border-bottom: 3px solid black;
+  transition: 0.1s ease;
+}
+li a {
+  font-family: Oswald;
+}
+.signlog {
+  background-color: rgb(197, 23, 58);
+  border-radius: 10px;
+  width: 90px;
+  height: 25px;
+  position: relative;
+  text-align: center;
+  a {
+    color: white;
+  }
+}
+
+.topper {
+  display: flex;
+  margin-top: auto;
+  background-color: white;
+  border: solid 1px;
+  align-items: center;
+  align-content: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#logo {
+  margin-left: 3px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav {
+  width: 800px;
+  position: fixed;
+  left: 30%;
+  top: 15px;
+  background-color: white;
+  border-radius: 5px;
+}
+nav li {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-image: url(mainbackground.png);
+  width: 100%;
+  height: 720px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  overflow-x: visible;
+  a {
+    overflow-x: visible;
+    overflow-y: visible;
+    height: 30%;
+    width: 20%;
+  }
+}
+header > .hys > h1 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+.hys {
+  height: 30%;
+  width: 100%;
+  overflow-x: visible;
+}
+.everything {
+  min-width: 460px;
+}
+.title {
+  position: relative;
+  top: 190px;
+  left: 30px;
+  font-size: 40px;
+}
+header > a > button {
+  margin-top: 200px;
+  margin-left: 30px;
+  width: 100%;
+  height: 30%;
+  font-size: 20px;
+  background-color: rgba(200, 0, 0, 0);
+  color: white;
+  border: solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.1s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.logham {
+  display: flex;
+}
+#main {
+  transition: 0.5s;
+  margin: 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+/* Contacts written by batu */
+.contacts {
+  background-color: #08013f;
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  height: 25vh;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.links > a {
+  color: #d9dafc;
+  font-family: Oswald;
+  letter-spacing: 1px;
+}
+.socials {
+  img {
+    width: 3%;
+  }
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+header > a > button:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.2s;
+}
+.sneakers > h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pair {
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  h2 {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  p {
+    margin-top: 5px;
+  }
+  border: solid 0px;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  background-color: rgb(240, 238, 238);
+  transition: transform 0.3s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  overflow-x: visible;
+}
+
+.stock > a {
+  transition: transform 0.3s;
+}
+
+.stock > a:hover {
+  transform: scale(0.99);
+}
+
+.stock {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  overflow-x: visible;
+}
+
+a > .pair {
+  font-family: Rubik;
+}
+
+@media screen and (max-width: 1600px) {
+  nav {
+    position: inherit;
+  }
+}
+@media screen and (max-width: 1345px) {
+  nav {
+    position: inherit;
+  }
+  .title {
+    position: relative;
+    top: 90px;
+    left: 30px;
+    font-size: 60px;
+  }
+  header > button {
+    margin-top: 110px;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .fifth {
+    display: none;
+  }
+  nav {
+    width: 600px;
+    position: inherit;
+  }
+  header {
+    background-size: cover;
+    height: 500px;
+  }
+  .title {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .fourth {
+    display: none;
+  }
+  nav {
+    width: 400px;
+  }
+  header {
+    background-size: cover;
+    height: 400px;
+  }
+  .hys > button {
+    font-size: 10px;
+  }
+  .title {
+    font-size: px;
+  }
+}
+@media screen and (max-width: 665px) {
+  .third {
+    display: none;
+  }
+  nav {
+    width: 200px;
+  }
+  header {
+    height: 300px;
+  }
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header {
+    height: 275px;
+    button {
+      font-size: 10px;
+      overflow-x: visible;
+      overflow-y: visible;
+    }
+    a {
+      overflow-x: visible;
+      overflow-y: visible;
+    }
+  }
+  .main {
+    width: 250px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .stock {
+    width: px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  header {
+    height: 300px;
+    button {
+      font-size: 5px;
+      overflow-x: visible;
+      overflow-y: visible;
+    }
+  }
+  .bask .first {
+    display: none;
+  }
+  nav {
+    display: none;
+    width: 0%;
+  }
+  .topper {
+  }
+}

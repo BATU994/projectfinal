@@ -1,0 +1,264 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: red;
+  height: 100vh;
+}
+.signlog {
+  background-color: rgb(255, 0, 0);
+  border-radius: 10px;
+  width: 90px;
+  height: 25px;
+  text-align: center;
+  a {
+    color: white;
+  }
+}
+
+.container {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.topper {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: px;
+  background-color: white;
+  border: solid 1px;
+  align-items: center;
+  align-content: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#logo {
+  margin-left: 3px;
+}
+.logham {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav {
+  width: 800px;
+  position: fixed;
+  left: 350px;
+  top: 15px;
+  background-color: white;
+  border-radius: 5px;
+}
+nav li {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.login-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Jaro;
+}
+
+.login-box h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 500;
+}
+.contacts {
+  background-color: #08013f;
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  height: 25vh;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.links > a {
+  color: #d9dafc;
+  font-family: Oswald;
+  letter-spacing: 1px;
+}
+.socials {
+  img {
+    width: 3%;
+  }
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+li a {
+  font-family: Oswald;
+}
+li a:hover,
+li a.active {
+  border-bottom: 3px solid black;
+  transition: 0.1s ease;
+}
+.input-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #aaa;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.remember-forgot a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  width: 100%;
+  background-color: #d60505;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff9898;
+}
+
+.sign-up {
+  margin-top: 20px;
+}
+
+.sign-up a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.sign-up a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .login-box {
+    padding: 30px 20px;
+  }
+
+  .login-box h2 {
+    font-size: 25px;
+  }
+
+  .input-box input {
+    font-size: 14px;
+  }
+
+  .remember-forgot {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1345px) {
+  nav {
+    position: inherit;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .fifth {
+    display: none;
+  }
+  nav {
+    width: 600px;
+    position: inherit;
+  }
+}
+@media screen and (max-width: 850px) {
+  .fourth {
+    display: none;
+  }
+  nav {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 655px) {
+  .third {
+    display: none;
+  }
+  nav {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 470px) {
+}

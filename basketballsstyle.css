@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signlog {
+  background-color: rgb(197, 23, 58);
+  border-radius: 10px;
+  width: 90px;
+  height: 25px;
+  text-align: center;
+  a {
+    color: white;
+  }
+}
+
+.topper {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  border: solid 1px;
+  align-items: center;
+  align-content: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 101%;
+}
+
+#logo {
+  margin-left: 3px;
+}
+.logham {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav {
+  width: 800px;
+  position: fixed;
+  left: 30%;
+  top: 15px;
+  background-color: white;
+  border-radius: 5px;
+}
+nav li {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.ball {
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  h2 {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  p {
+    margin-top: 5px;
+  }
+  border: solid 0px;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  background-color: rgb(240, 238, 238);
+}
+
+.additional {
+  color: white;
+  font-family: Jorick;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Jaro;
+  font-size: 60px;
+}
+
+.basketballs {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 400px;
+  font-family: Oswald;
+}
+
+.ball {
+  img {
+    height: 80%;
+  }
+  font-size: 20px;
+  height: 110%;
+  h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  nav {
+    position: inherit;
+  }
+}
+@media screen and (max-width: 1345px) {
+  nav {
+    position: inherit;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .fifth {
+    display: none;
+  }
+  nav {
+    width: 600px;
+    position: inherit;
+  }
+}
+@media screen and (max-width: 860px) {
+  .fourth {
+    display: none;
+  }
+  nav {
+    width: 400px;
+  }
+  .ball {
+    img {
+      height: 80%;
+    }
+    font-size: 15px;
+    height: 110%;
+    h2 {
+      font-size: 30px;
+    }
+  }
+}
+@media screen and (max-width: 665px) {
+  .third {
+    display: none;
+  }
+  nav {
+    width: 200px;
+  }
+  .ball {
+    img {
+      height: 80%;
+    }
+    font-size: 10px;
+    height: 110%;
+    h2 {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .basketballs {
+    width: 500px;
+  }
+  .ball {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .basketballs {
+    width: 200px;
+    margin-right: 0;
+    margin-left: 0px;
+    gap: 0px;
+    p {
+      margin-top: 0px;
+    }
+  }
+  * {
+    overflow-x: hidden;
+  }
+  .ball {
+    img {
+      height: 80%;
+    }
+    font-size: 5px;
+    height: 80%;
+    h2 {
+      font-size: 10px;
+    }
+    width: 80%;
+    overflow-x: visible;
+  }
+}
+.link {
+  font-family: Oswald;
+}
+li a {
+  font-family: Oswald;
+}
+li a:hover,
+li a.active {
+  border-bottom: 3px solid black;
+  transition: 0.1s ease;
+}
+.contacts {
+  background-color: #08013f;
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  height: 25vh;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.links > a {
+  color: #d9dafc;
+  font-family: Oswald;
+  letter-spacing: 1px;
+}
+.socials {
+  img {
+    width: 3%;
+  }
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
