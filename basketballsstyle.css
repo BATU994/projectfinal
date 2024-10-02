@@ -5,6 +5,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
@@ -103,11 +104,13 @@ a {
 .basketballs {
   display: grid;
   grid-template-columns: repeat(3, 33%);
+  grid-template-rows: 1fr 1fr;
   gap: 10px;
   margin-left: 10px;
   margin-right: 10px;
   min-width: 400px;
   font-family: Oswald;
+  overflow-x: visible;
 }
 
 .ball {
@@ -115,10 +118,16 @@ a {
     height: 80%;
   }
   font-size: 20px;
-  height: 110%;
+  height: 100%;
   h2 {
     font-size: 40px;
   }
+  transition: 0.2s ease-in;
+  overflow-x: visible;
+}
+
+.ball:hover {
+  transform: scale(0.98);
 }
 @media screen and (max-width: 1600px) {
   nav {
@@ -151,7 +160,7 @@ a {
       height: 80%;
     }
     font-size: 15px;
-    height: 110%;
+    height: 100%;
     h2 {
       font-size: 30px;
     }
@@ -169,7 +178,7 @@ a {
       height: 80%;
     }
     font-size: 10px;
-    height: 110%;
+    height: 100%;
     h2 {
       font-size: 20px;
     }
@@ -178,37 +187,48 @@ a {
 
 @media screen and (max-width: 575px) {
   .basketballs {
-    width: 500px;
+    width: 530px;
   }
   .ball {
-    width: 150px;
+    width: ;
   }
 }
 
 @media screen and (max-width: 470px) {
   .basketballs {
-    width: 200px;
-    margin-right: 0;
-    margin-left: 0px;
-    gap: 0px;
+    width:60px;
     p {
       margin-top: 0px;
     }
+    margin: 0px;
+    grid-template-columns: repeat(2,50%);
   }
   * {
     overflow-x: hidden;
   }
+  .first {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
   .ball {
     img {
-      height: 80%;
+      height: 120px;
+      width: px;
+    }
+    p {
+      font-size: 20px;
     }
     font-size: 5px;
-    height: 80%;
     h2 {
-      font-size: 10px;
+      font-size: 15px;
     }
-    width: 80%;
+    gap:0px;
     overflow-x: visible;
+    width: 120px;
+    
+
   }
 }
 .link {
